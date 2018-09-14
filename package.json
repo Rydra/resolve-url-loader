@@ -3,7 +3,7 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/test-my-cli"
   ],
   "scripts": {
     "lint": "jshint packages --exclude **/node_modules",
@@ -26,6 +26,7 @@
     "outdent": "^0.5.0",
     "promise-compose": "^1.1.2",
     "recursive-readdir": "^2.2.2",
+    "resolve-url-loader": "^3.0.0",
     "tap-diff": "^0.1.1",
     "vlq": "^1.0.0"
   }
